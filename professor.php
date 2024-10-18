@@ -38,10 +38,10 @@ require 'includes/db.php';
         </div>
 
         <!-- Botão para adicionar nova turma com o texto ao lado do "+" -->
-        <a href="turmas/cadastro.php" class="btn-add-turma">Adicionar Turma</a>
+        <a href="turmas/cadastro.php" class="btn-add-turma">Adicionar Turma +</a>
     </div>
 </div>
 
 <script src="assets/js/script.js"></script>
 
-<?php include 'includes/footer.php'; ?>
+<?php include 'includes/footer.php'; ?> 

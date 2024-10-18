@@ -15,7 +15,7 @@
             <nav>
                 <ul>
                     <li><a href="professor.php">Home</a></li>
-                    <li><a href="logout.php">Sair</a></li>
+                    <li><a href="index.php">Sair</a></li>
                 </ul>
             </nav>
         <?php endif; ?>

@@ -1,4 +1,4 @@
-/* Estilos da dashboard */
+Estilos da dashboard
 .dashboard-container {
     padding: 20px;
     max-width: 1200px;
@@ -74,24 +74,29 @@ h3 {
     text-decoration: underline;
 }
 
-/* Estilos para o botão "Adicionar Turma" */
+/* Estilos para o botão "Adicionar Turma" sem o "+" */
 .btn-add-turma {
-    position: fixed;
-    bottom: 30px;
-    right: 30px;
+    display: inline-flex;
+    align-items: center;
     background-color: #000;
     color: white;
-    font-size: 18px; /* Reduzido o tamanho da fonte */
-    padding: 10px 20px;
+    font-size: 18px;
+    padding: 10px 40px;
     text-align: center;
-    border-radius: 8px;
+    border-radius: 30px;
     text-decoration: none;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    position: fixed;
+    bottom: 30px;
+    right: 30px; /* Posiciona o botão a partir da margem esquerda da tela */
 }
 
 .btn-add-turma:hover {
     background-color: #444;
 }
+
 
 /* Estilos para o botão "Home" e o ícone de logout */
 header {
@@ -135,19 +140,23 @@ header nav a:hover {
     margin-bottom: 10px;
 }
 
-/* Estilos para o botão "Adicionar Atividade" */
+/* Estilos para o botão "Adicionar Atividade" sem o "+" */
 .btn-add-atividade {
+    display: inline-flex;
+    align-items: center;
+    background-color: #000;
+    color: white;
+    font-size: 18px;
+    padding: 10px 25px;
+    text-align: center;
+    border-radius: 30px; /* Bordas arredondadas */
+    text-decoration: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    font-weight: bold;
+    transition: background-color 0.3s ease;
     position: fixed;
     bottom: 30px;
     right: 30px;
-    background-color: #000;
-    color: white;
-    font-size: 18px; /* Reduzido o tamanho da fonte */
-    padding: 10px 20px;
-    text-align: center;
-    border-radius: 8px;
-    text-decoration: none;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 
 .btn-add-atividade:hover {

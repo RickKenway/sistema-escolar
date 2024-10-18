@@ -53,7 +53,8 @@ $result = $conn->query($sql);
     </div>
 
     <!-- Botão para adicionar nova atividade com texto ao lado do "+" -->
-    <a href="cadastro.php?id=<?php echo $id_turma; ?>" class="btn-add-atividade">+ Adicionar Atividade</a>
+    <a href="cadastro.php?id=<?php echo $id_turma; ?>" class="btn-add-atividade">Adicionar Atividade +</a>
+
 </div>
 
 <?php include '../includes/footer.php'; ?>
